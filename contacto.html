@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUET</title>
+    <link rel="shortcut icon" href="img/tuetimg.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="divsticky">
+      <header id="Header">
+        <a href="index.html">
+          <img src="img/tuetimg.png" class="logoTuet" alt="Imagen del logo de Tuet" />
+        </a>
+        <nav>
+          <ul class="listnav">
+            <li class="navbar Inicio">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="navbar Productos">
+              <a href="productos.html">Productos</a>
+            </li>
+            <li class="navbar Materiales">
+              <a href="materiales.html">Materiales</a>
+            </li>
+            <li class="navbar Historia">
+              <a href="historia.html">Historia</a>
+            </li>
+            <li class="navbar Contacto">
+              <a href="contacto.html">Contactenos</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      </div>
+    <section>
+      <article class="formulario">
+        <form action="">
+          <fieldset>
+              <legend>Queres informarte sobre algun producto?</legend>
+              <div>Sexo:</div>
+        <label for="hombre">Hombre</label> <input name="sexo" id="hombre" type="radio">
+        <label for="mujer">Mujer</label> <input name="sexo" id="mujer" type="radio">
+        <br>
+        <label for="Nombre">Nombre</label> <input id="Nombre" type="text"><br>
+        <label for="Apellido">Apellido</label> <input id="Apellido" type="text"><br>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" placeholder="aaa@gmail.com" name="email"><br>
+        <p class="ProductosDeInteres">Que productos le interesa?
+          <select name="productosdeinteres" id="">
+            <option value="M">Mochilas</option>
+            <option value="C">Carteras</option>
+            <option value="A">Accesorios</option>
+          </select>
+        </p>
+        <label for="Newsletter">¿Desea recibir el newsletter?</label> <input id="Newsletter" type="checkbox"><br>
+        <textarea placeholder="Comentarios" name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="reset" value="Limpiar formulario">
+        <input type="submit" value="Enviar formulario">
+        </fieldset>
+         
+        </form>
+      </article>
+    </section>
+    <footer class="webfooter">
+      <a href="index.html"><img src="img/tuetimg.png" alt="Imagen del logo de Tuet" />
+      <p>
+        <a href="https://www.instagram.com/tuet.oficial/">
+          <img src="img/instagramlogo.png" alt="Logo de instagram" />
+        </a>
+      </p>
+      <p>Seguinos en nuestras redes</p>
+      <a href="/historia.html">
+        <p>Quienes Somos</p>
+      </a>
+      <a href="/contacto.html">
+        <p>Informacion de Contact</p>
+      </a>
+    </footer>
+  </body>
+</html>

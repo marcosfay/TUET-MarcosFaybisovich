@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 1450px;
+  margin: 0px auto;
+}
+
+.bloque1 {
+  display: inline-flex;
+  width: 1450px;
+}
+
+.bloque2 {
+  display: inline-flex;
+  width: 1450px;
+  margin-top: 100px;
+}
+
+.luciteCuero {
+  margin: 0px;
+  height: 400px;
+  width: 725px;
+  padding: 250px;
+  font-size: xx-large;
+}
+
+.nuevaTemp {
+  margin: 0px;
+  height: 400px;
+  width: 725px;
+  padding: 250px;
+  font-size: xx-large;
+}
+
+.listnav {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav {
+  display: inline-block;
+  margin: 0 0 0 200px;
+}
+
+.navbar {
+  display: inline-block;
+  margin: 20px;
+  font-size: larger;
+  padding: 0 25px 0 25px;
+}
+
+.logoTuet {
+  vertical-align: middle;
+  margin: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.webfooter {
+  background-color: gray;
+  justify-content: space-between;
+}
+
+#divsticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 2rem;
+}
+
+footer {
+  background: grey;
+  color: white;
+  margin-top: 100px;
+
+}
+
+footer p {
+  text-align: center;
+}

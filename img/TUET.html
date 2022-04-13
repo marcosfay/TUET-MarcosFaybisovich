@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUET</title>
+    
+    
+  <link rel="shortcut icon" href="TUET_files/tuetimg.png" type="image/x-icon"><link rel="stylesheet" href="TUET_files/main.css"></head>
+  <body>
+    
+    <div id="container">
+      <div id="divsticky">
+      <header id="Header">
+        <a href="http://127.0.0.1:5500/index.html">
+          <img src="TUET_files/tuetimg.png" class="logoTuet" alt="Imagen del logo de Tuet">
+        </a>
+        <nav>
+          <ul class="listnav">
+            <li class="navbar Inicio">
+              <a href="http://127.0.0.1:5500/index.html">Inicio</a>
+            </li>
+            <li class="navbar Productos">
+              <a href="http://127.0.0.1:5500/productos.html">Productos</a>
+            </li>
+            <li class="navbar Materiales">
+              <a href="http://127.0.0.1:5500/materiales.html">Materiales</a>
+            </li>
+            <li class="navbar Historia">
+              <a href="http://127.0.0.1:5500/historia.html">Historia</a>
+            </li>
+            <li class="navbar Contacto">
+              <a href="http://127.0.0.1:5500/contacto.html">Contactenos</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      </div>
+
+      <section id="content">
+        
+        <div class="bloque1">
+          
+          <img src="TUET_files/foto1.png" class="firstImage" alt="Imagen de modelo 1 con producto">
+          <p class="nuevaTemp">Nueva Temporada Otono Inviero</p>
+        
+        </div>
+
+        <div class="bloque2">
+
+          <p class="luciteCuero">Lucite este invierno con Cuero Organico</p>
+          <img src="TUET_files/foto2.png" class="secondImage" alt="Imagen de modelo 2 con producto">
+
+        </div>
+
+      </section>
+
+    </div>
+
+    <footer class="webfooter">
+      <a href="http://127.0.0.1:5500/index.html">
+        <img src="TUET_files/tuetimg.png" alt="Imagen del logo de Tuet">
+      </a><p><a href="http://127.0.0.1:5500/index.html">
+        </a><a href="https://www.instagram.com/tuet.oficial/">
+          <img src="TUET_files/instagramlogo.png" alt="Logo de instagram">
+        </a>
+      </p>
+      <p>Seguinos en nuestras redes</p>
+      <p>Quienes somos</p>
+      <p>Infromacion de contacto</p>
+    </footer>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
