@@ -1,0 +1,19 @@
+{
+  "name": "entrega-grids-marcos-faybisovich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosfay/TUET-MarcosFaybisovich.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosfay/TUET-MarcosFaybisovich/issues"
+  },
+  "homepage": "https://github.com/marcosfay/TUET-MarcosFaybisovich#readme"
+}
